@@ -1,0 +1,9 @@
+بعمل html 
+
+newman run dummyjson.postman_collection.json -e dummyjson.postman_environment.json -r htmlextra --reporter-htmlextra-export report.html
+
+
+
+بتشوف النتائج بس على ال CMD 
+
+newman run dummyjson.postman_collection.json -e dummyjson.postman_environment.json
